@@ -1,0 +1,9 @@
+models/
+outputs/
+logs/
+__pycache__/
+.DS_Store
+.idea/
+announcements/out/
+inputs/
+announcements/voices/
