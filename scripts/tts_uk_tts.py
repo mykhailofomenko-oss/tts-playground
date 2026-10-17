@@ -9,7 +9,7 @@ import soundfile as sf
 from common import MODELS, cli, done, items, out
 
 # tts_uk downloads its acoustic model into ./models/ of the working directory at import time
-(MODELS / "tts_uk").mkdir(exist_ok=True)
+(MODELS / "tts_uk").mkdir(parents=True, exist_ok=True)
 os.chdir(MODELS / "tts_uk")
 from tts_uk.inference import synthesis  # noqa: E402
 
