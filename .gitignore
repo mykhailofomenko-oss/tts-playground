@@ -5,5 +5,8 @@ __pycache__/
 .DS_Store
 .idea/
 announcements/out/
-inputs/
-announcements/voices/
+inputs/*
+!inputs/clones/
+inputs/clones/*
+announcements/voices/*
+!.gitkeep
